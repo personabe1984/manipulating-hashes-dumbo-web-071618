@@ -19,7 +19,7 @@ def first_challenge
       if attribute == :favorite_icecream_flavors
         puts attribute
 
-        attribute.delete_if {|flavor| flavor == "strawberry"}
+        #attribute.delete_if {|flavor| flavor == "strawberry"}
       end
     end
   end
