@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-  puts groceries.values
+  puts groceries.values.kind_of?(Array)
   
 
 end
