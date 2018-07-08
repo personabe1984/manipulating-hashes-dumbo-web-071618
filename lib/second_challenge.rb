@@ -8,8 +8,9 @@ def second_challenge
 
   #code your solution here!
   foods = groceries.values
+  puts foods
   return foods.flatten!
 
 end
 
-puts second_challenge
+second_challenge
