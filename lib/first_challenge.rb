@@ -17,7 +17,7 @@ def first_challenge
   contacts.each do |person, data|
     data.each do |attribute, value|
       if attribute == :favorite_icecream_flavors
-        puts attribute.kind_of?(Array)
+        puts attribute.kind_of?
         puts value
         #attribute.delete_if {|flavor| flavor == "strawberry"}
       end
