@@ -7,9 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-  puts groceries.values.kind_of?(Array)
-  
+  foods = groceries.values
+  return food
 
 end
 
-second_challenge
+puts second_challenge
