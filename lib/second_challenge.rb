@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
   foods = groceries.values
-  return food
+  return foods
 
 end
 
